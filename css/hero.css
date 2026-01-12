@@ -1,12 +1,12 @@
 #hero {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   height: 100vh;
+  justify-content: center;
   align-items: flex-start;
   padding: 0 30px;
-  background-color: #efe7ef;
-  background-image: url("/images/photo.jpg");
+  background-color: #efe7ec;
+  /* background-image: url("/images/photo.jpg"); */
   background-position: bottom right;
   background-size: contain;
   background-repeat: no-repeat;
@@ -14,34 +14,29 @@
 
 #hero > h1 {
   font-size: 28px;
-  font-weight: 700;
   line-height: 1.3;
-  font-family: "Playfair Display", serif;
+  font-weight: 700;
   margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
 }
 
 #hero > p {
-  font-family: "Quicksand", sans-serif;
-  line-height: 1.5;
+  font-family: "quicksand", sans-serif;
   font-weight: 300;
+  line-height: 1.5;
   margin-bottom: 30px;
 }
 
 #hero > button {
   width: 300px;
   border: 1px solid #000;
-  border-radius: 2px;
   padding: 10px 15px;
-  background-color: transparent;
+  border-radius: 2px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  cursor: pointer;
-}
-
-#hero > button > i {
-  font-size: 20px;
+  background-color: transparent;
 }
 
 #hero > button > span {
@@ -49,4 +44,8 @@
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+#hero > button > i {
+  font-size: 20px;
 }

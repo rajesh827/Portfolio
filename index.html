@@ -30,10 +30,22 @@
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/skill.css" />
     <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
 
 
   </head>
   <body>
+    <nav class="sidebar">
+      <i id="hamburger" class="fa-solid fa-bars sidebar__hamburger"></i>
+
+      <div class="sidebar_content">
+        <ul class="sidebar_list">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <section id="hero">
       <h1>
         Hi! <br />I'm Rajesh <br />
@@ -57,7 +69,29 @@
         Sed soluta maiores facere dolorum amet quas, sequi, ab optio exercitationem minus voluptatem in officia. Odio provident repellendus possimus qui, eos dicta laudantium officia, repellat impedit porro at. Quod, reprehenderit.
         Magnam earum suscipit sint ipsam nulla ea molestias ullam, esse accusamus incidunt optio similique ad modi ab ducimus alias? Odit debitis ad dolores nostrum. Quod at aspernatur nemo soluta ut!
       </p>
+      <div class="about_skills">
+        <div class="about_skills_box">
+          <i class="fa-solid fa-pen-nib"></i>
+          <h3>Graphic Design</h3>
+        </div>
+    
+        <div class="about_skills_box">
+          <i class="fa-solid fa-globe"></i>
+          <h3>Web Design</h3>
+        </div>
+    
+        <div class="about_skills_box">
+          <i class="fa-solid fa-database"></i>
+          <h3>SQL</h3>
+        </div>
+        <div class="about_skills_box">
+      <i class="fa-solid fa-code"></i>
+      <h3>Programming (C / C++)</h3>
+    </div>
+      </div>
     </section>
+
+
     
     <section id="skills" class="section">
       <p class="section_title">My Speciality</p>
@@ -92,5 +126,11 @@
         </div>
       </div>
     </section>
+    <script>
+      const hamburger = document.querySelector("#hamburger");
+      hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle("sidebar_hamburger_translate");
+      })
+    </script>
   </body>
 </html>

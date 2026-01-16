@@ -13,11 +13,23 @@
 
 .skill_percent_box {
   height: 6px;
-  background-color: #2c98f0;
+  background-color: var(--skill-color);
   width: 80%;
   border-radius: 6px;
-  background-color: #2c98f0;
   position: relative;
+}
+
+.skill_percent_box::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%); /* Centers circle on the tip */
+  height: 14px;
+  width: 14px;
+  background-color: var(--skill-color); /* Same color as bar */
+  border-radius: 50%;
+  z-index: 2;
 }
 
 .skill_percent_box > span {
@@ -27,12 +39,21 @@
   font-size: 12px;
   font-family: 600px;
   line-height: 1.2;
+  /* color: var(--skill-color); */
 }
+
+/* @media screen and (min-width: 768px) {
+  .all-skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+} */
 
 @media screen and (min-width: 768px) {
   .all-skills {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 40px;
   }
 }

@@ -3,7 +3,7 @@
 This is my personal portfolio website built using **HTML, CSS, and JavaScript**. It showcases my skills, education, and provides a way to contact me.
 
 ## 🔗 Live Preview
-*(Add your GitHub Pages / Netlify link here)*
+https://rajesh827.github.io/Portfolio/
 
 ## 📌 Features
 - Responsive personal portfolio layout

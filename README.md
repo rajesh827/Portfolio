@@ -23,6 +23,7 @@ https://rajesh827.github.io/Portfolio/
 - **Google Fonts**
 
 ## 📂 Project Structure
+```bash
 ├── index.html
 ├── global.css
 ├── css/
@@ -33,3 +34,4 @@ https://rajesh827.github.io/Portfolio/
 │ ├── sidebar.css
 │ ├── contact.css
 │ └── education.css
+```

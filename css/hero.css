@@ -6,7 +6,7 @@
   align-items: flex-start;
   padding: 0 30px;
   background-color: #efe7ec;
-  background-image: url("/images/pp.png");
+  background-image: url("../images/pp.png");
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;

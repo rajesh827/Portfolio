@@ -12,13 +12,12 @@ https://rajesh827.github.io/Portfolio/
 - About Me section
 - Skills section with progress bars
 - Education timeline
-- Contact form with basic validation
 - Clean UI with Font Awesome icons and Google Fonts
 
 ## 🛠️ Technologies Used
 - **HTML5**
 - **CSS3**
-- **JavaScript (Vanilla)**
+- **JavaScript**
 - **Font Awesome**
 - **Google Fonts**
 
